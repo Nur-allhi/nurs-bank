@@ -1,3 +1,1 @@
-# nurs-bank
-
-[Live] (https://nur-allhi.github.io/nurs-bank/)
+[Live-demo](https://nur-allhi.github.io/nurs-bank/)
