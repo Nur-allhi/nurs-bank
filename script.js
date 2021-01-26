@@ -22,7 +22,10 @@ depositBtn.addEventListener("click", function () {
 const withDrawBtn = document.getElementById("addWithdraw");
 withDrawBtn.addEventListener("click", function () {
   const withDrawNumber = getInputNumber("withDrawAmount");
-  console.log(withDrawNumber);
+
+  updateSpantext("currentWithdraw", withDrawNumber);
+  updateSpantext("currentBalance", -1 * withDrawNumber);
+  document.getElementById("withDrawAmount").value = "";
 });
 
 function getInputNumber(id) {
